@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="large_button_style">
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingVertical">16dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>

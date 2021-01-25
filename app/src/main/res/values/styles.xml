@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="timer_input_field" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="helperTextEnabled">true</item>
+        <item name="errorEnabled">true</item>
+        <item name="errorContentDescription">Wrong Value</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="timer_text_style">
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="space_style">
+        <item name="android:layout_column">0</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+
+    <style name="large_button_style">
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_columnSpan">2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="textview_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_edit_style_for_time_input" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

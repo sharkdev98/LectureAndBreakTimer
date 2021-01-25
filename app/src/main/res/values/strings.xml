@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MaterialDesignPractice</string>
+    <string name="minutes">mm</string>
+    <string name="seconds">ss</string>
+    <string name="startTimerButtonText">Start</string>
+    <string name="resumeTimerButtonText">Resume</string>
+    <string name="pauseTimerButtonText">Pause</string>
+    <string name="stop_resetTimerButtonText">Stop / Reset...</string>
+    <string name="min_range">0 - 59</string>
+    <string name="sec_range">1 - 59</string>
+    <string name="min_default">0</string>
+    <string name="sec_default">1</string>
+</resources>
